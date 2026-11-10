@@ -30,3 +30,8 @@ kim.add_files('img')
 
 print(jin.folder)
 print(kim.folder)
+
+print('hi')
+
+# git config --global user.name
+# git config --global 
