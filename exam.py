@@ -32,6 +32,7 @@ print(jin.folder)
 print(kim.folder)
 
 print('hi')
+print('hello')
 
 # git config --global user.name
 # git config --global 
