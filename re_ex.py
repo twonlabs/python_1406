@@ -13,6 +13,23 @@ result = re.findall(pattern, text)
 print(result)
 
 # 이메일 형식 간단히 찾기
+'''
+data = '이메일은 twonlabs@naver.com 입니다'
+
 email_pattern = r'\w+@\w+\.\w+'
 emails = re.findall(email_pattern, data)
 print(emails)
+'''
+print('=== 정규 표현식 : re모듈 주요 함수 ===')
+# re.findall()
+# re.
+
+print('=== 정규 표현식 : 문자열 치환(replace 대신 re.sub) ===')
+
+text2 = '가격은 12000원 입니다'
+
+# 숫자 제거
+
+print('=== 정규식 vs 일반 문자열 비교 ===')
+
+text = ' 몸무게
