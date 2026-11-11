@@ -18,4 +18,6 @@ print(quote.text)
 quote = driver.find_elements(By.CLASS_NAME, 'text')
 for quote in quotes:
     print(quote.text)
-    
+
+# 브라우저 종료
+driver.quit()
