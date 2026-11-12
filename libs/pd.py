@@ -71,7 +71,7 @@ print('\n=== 열 수정 ===')
 
 
 # pf2 = df.copy()
-
+'''
 df2.loc[1, 'Age'] = None
 print(df2.isnull())
 
@@ -84,3 +84,4 @@ print(df2['Age'].fillna(df['Age'].mean))
 # print(df2.fillna(method='ffill'))
 print(df2.ffill())
 
+'''
