@@ -41,7 +41,8 @@ a = fig.add_subplot(111)
 x = [3, 4]
 y = [1, 2]
 
-labels = ['red', 'blue']
+labels = ['english', 'math']
+color = ['red', 'blue']
 a.bar(x, y, tick_label=labels, color=color)
 plt.show()
 
